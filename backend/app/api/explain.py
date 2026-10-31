@@ -2,10 +2,10 @@
 from __future__ import annotations
 
 import logging
+from app.core.state import AppState
 
 from fastapi import APIRouter, File, Form, HTTPException, UploadFile
 
-from app.main import AppState
 from app.utils import safe_filename
 
 logger = logging.getLogger("plantpath.api.explain")

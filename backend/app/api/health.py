@@ -5,8 +5,8 @@ from datetime import datetime, timezone
 
 from fastapi import APIRouter
 
-from app.main import AppState
 from app.schemas import HealthResponse
+from app.core.state import AppState
 
 router = APIRouter()
 

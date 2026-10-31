@@ -2,10 +2,10 @@
 from __future__ import annotations
 
 from typing import Optional
+from app.core.state import AppState
 
 from fastapi import APIRouter, HTTPException, Query
 
-from app.main import AppState
 
 router = APIRouter()
 

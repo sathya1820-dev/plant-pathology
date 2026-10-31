@@ -6,7 +6,7 @@ from pathlib import Path
 
 from fastapi import APIRouter, File, HTTPException, UploadFile
 
-from app.main import AppState
+from app.core.state import AppState
 from app.utils import safe_filename
 
 logger = logging.getLogger("plantpath.api.predict")

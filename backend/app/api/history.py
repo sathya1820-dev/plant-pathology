@@ -3,7 +3,7 @@ from __future__ import annotations
 
 from fastapi import APIRouter, HTTPException, Query
 
-from app.main import AppState
+from app.core.state import AppState
 
 router = APIRouter()
 

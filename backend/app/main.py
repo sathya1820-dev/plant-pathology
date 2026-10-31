@@ -1,5 +1,6 @@
 """FastAPI application entry point for PlantPath AI."""
 from __future__ import annotations
+from core.state import AppState  
 
 import logging
 import os
@@ -36,12 +37,6 @@ logging.basicConfig(
 logger = logging.getLogger("plantpath")
 
 
-class AppState:
-    settings = None
-    classifier: TorchClassifier | None = None
-    prediction_service: PredictionService | None = None
-    disease_service: DiseaseService | None = None
-    database: Database | None = None
 
 
 @asynccontextmanager
