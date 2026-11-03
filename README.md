@@ -1,6 +1,6 @@
 # PlantPath AI
 
-**Explainable Deep Learning for Plant Disease Detection, Classification and Severity Assessment**
+**Explainable Deep Learning for Plant Disease Detection, Classification and Severity Assessments**
 
 A B.Tech Computer Science research prototype: an AI-powered plant leaf analysis
 platform with local ML inference, Grad-CAM explainability, disease knowledge
